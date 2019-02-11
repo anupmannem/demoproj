@@ -32,7 +32,7 @@ body, html {
     position: relative;
 }
 
-.content:before {
+.content::before {
     /* keep the background static on scroll */
     /* content below is an attribute of before */
     content: "";
